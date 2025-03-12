@@ -6,14 +6,13 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/12 02:37:38 by msimoes           #+#    #+#             */
-/*   Updated: 2025/03/12 03:35:20 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/03/12 23:51:19 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isalpha(char c)
+int	ft_isalpha(char c)
 {
-    if((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-        return (1);
-    return (0);
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+		return (1);
+	return (0);
 }
-

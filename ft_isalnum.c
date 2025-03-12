@@ -6,14 +6,14 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/12 03:15:46 by msimoes           #+#    #+#             */
-/*   Updated: 2025/03/12 03:35:54 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/03/12 23:51:12 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isalnum(int c)
+int	ft_isalnum(int c)
 {
-    if((c >= '0' && c <= '9') || (c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
-        return (1);
-    return (0);
+	if ((c >= '0' && c <= '9') || (c >= 'a' && c <= 'z')
+		|| (c >= 'A' && c <= 'Z'))
+		return (1);
+	return (0);
 }
-

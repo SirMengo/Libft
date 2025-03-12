@@ -6,13 +6,13 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/12 14:37:59 by msimoes           #+#    #+#             */
-/*   Updated: 2025/03/12 14:38:56 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/03/12 23:55:59 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_tolower (int c)
+int	ft_tolower(int c)
 {
-    if(c >= 'A' && c <= 'Z')
-        c = c + 32;
-    return (c);
+	if (c >= 'A' && c <= 'Z')
+		c = c + 32;
+	return (c);
 }

@@ -6,16 +6,16 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/16 16:06:38 by msimoes           #+#    #+#             */
-/*   Updated: 2025/02/16 16:08:17 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/03/12 23:54:49 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
-    int i;
+	int	i;
 
-    i = 0;
-    while(str[0] != '\0')
-        i++;
-    return (i);
+	i = 0;
+	while (str[0] != '\0')
+		i++;
+	return (i);
 }

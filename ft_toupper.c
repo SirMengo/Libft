@@ -6,13 +6,13 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/12 14:33:39 by msimoes           #+#    #+#             */
-/*   Updated: 2025/03/12 14:39:04 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/03/12 23:56:49 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_toupper (int c)
+int	ft_toupper(int c)
 {
-    if(c >= 'a' && c <= 'z')
-        c = c - 32;
-    return (c);
+	if (c >= 'a' && c <= 'z')
+		c = c - 32;
+	return (c);
 }

@@ -6,16 +6,13 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/12 03:45:00 by msimoes           #+#    #+#             */
-/*   Updated: 2025/03/12 03:52:51 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/03/12 23:52:14 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <ctype.h>
-
-int ft_isascii(int c)
+int	ft_isascii(int c)
 {
-    if(c >= 0 && c <= 127)
-        return (1);
-    return (0);
+	if (c >= 0 && c <= 127)
+		return (1);
+	return (0);
 }
