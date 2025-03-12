@@ -1,3 +1,2 @@
 Main sources used to check if exercises are correct:
-https://github.com/rickymercury/Common_Core_42/tree/main/Common-core/42-Cursus/Libft
 https://www.programiz.com
