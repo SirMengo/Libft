@@ -18,7 +18,7 @@ Exercises from the "Common Core - Libft" of 42School. Planning on doing all of t
 | strlcat | <p align="center">❌</p> |
 | toupper | <p align="center">✅</p> |
 | tolower | <p align="center">✅</p> |
-| strchr | <p align="center">❌</p> |
+| strchr | <p align="center">✅</p> |
 | strrchr | <p align="center">❌</p> |
 | strncmp | <p align="center">❌</p> |
 | mrmchr | <p align="center">❌</p> |
