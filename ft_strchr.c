@@ -6,10 +6,11 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/13 00:27:58 by msimoes           #+#    #+#             */
-/*   Updated: 2025/03/13 01:20:23 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/10 11:18:21 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 char	*ft_strchr(const char *str, int c)
 {
 	int	i;

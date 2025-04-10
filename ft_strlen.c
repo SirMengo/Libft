@@ -6,16 +6,18 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/16 16:06:38 by msimoes           #+#    #+#             */
-/*   Updated: 2025/03/12 23:54:49 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/10 11:09:05 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_strlen(char *str)
 {
 	int	i;
 
 	i = 0;
-	while (str[0] != '\0')
+	while (str[i] != '\0')
 		i++;
 	return (i);
 }

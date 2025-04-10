@@ -6,9 +6,11 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/12 03:55:23 by msimoes           #+#    #+#             */
-/*   Updated: 2025/03/12 23:53:52 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/10 11:16:53 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isprint(int c)
 {

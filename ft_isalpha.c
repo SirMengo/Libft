@@ -6,9 +6,11 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/12 02:37:38 by msimoes           #+#    #+#             */
-/*   Updated: 2025/03/12 23:51:19 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/10 11:15:40 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "libft.h"
 
 int	ft_isalpha(char c)
 {
