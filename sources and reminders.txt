@@ -2,3 +2,8 @@ Main sources used to check if exercises are correct:
 https://www.programiz.com
 https://www.asciitable.com/
 https://www.w3schools.com/c/
+
+Reminder:
+-ASAP
+	-Study ft_memset and ft_strchr
+

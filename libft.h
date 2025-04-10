@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 10:51:47 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/10 13:02:24 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/10 14:51:25 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int		ft_isdigit(int c);
 int		ft_isprint(int c);
 char	*ft_strchr(const char *str, int c);
 char	*ft_strdup(char *src);
-size_t	ft_strlen(char *str);
+size_t	ft_strlen(const char *str);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
 #endif
