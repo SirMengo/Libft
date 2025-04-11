@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/11 11:56:43 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/11 12:13:28 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/11 14:31:48 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,14 @@
 
 void	ft_bzero(void *str, size_t n)
 {
-	size_t	i;
-	unsigned char *ptr;
+	size_t			i;
+	unsigned char	*ptr;
 
-	ptr = (unsigned char*)str;
+	ptr = (unsigned char *)str;
 	i = 0;
-	while(i < n)
+	while (i < n)
 	{
 		ptr[i] = 0;
 		i++;
-	} 
+	}
 }

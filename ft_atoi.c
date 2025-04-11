@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/16 16:13:22 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/11 11:07:35 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/11 14:33:37 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,4 +36,3 @@ int	ft_atoi(const char *str)
 	}
 	return (res * val);
 }
-
