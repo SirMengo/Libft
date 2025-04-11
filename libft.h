@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 10:51:47 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/11 11:07:43 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/11 12:14:36 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,4 +29,5 @@ size_t	ft_strlen(const char *str);
 int		ft_tolower(int c);
 int		ft_toupper(int c);
 void	*ft_memset(void *str, int c, size_t n);
+void	ft_bzero(void *str, size_t n);
 #endif

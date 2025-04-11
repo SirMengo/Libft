@@ -11,7 +11,7 @@ Exercises from the "Common Core - Libft" of 42School. Planning on doing all of t
 | isprint | <p align="center">✅</p> | <p align="center">✅</p> |
 | strlen | <p align="center">✅</p> | <p align="center">✅</p> |
 | memset | <p align="center">✅</p> | <p align="center">✅</p> |
-| bzero | <p align="center">❌</p> | <p align="center">❌</p> |
+| bzero | <p align="center">✅</p> | <p align="center">✅</p> |
 | memcpy | <p align="center">❌</p> | <p align="center">❌</p> |
 | memmove | <p align="center">❌</p> | <p align="center">❌</p> |
 | strlcpy | <p align="center">❌</p> | <p align="center">❌</p> |
