@@ -6,7 +6,7 @@
 #    By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/08 12:46:46 by msimoes           #+#    #+#              #
-#    Updated: 2025/04/11 12:01:34 by msimoes          ###   ########.fr        #
+#    Updated: 2025/04/11 12:21:37 by msimoes          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,7 @@ NAME = libft.a
 INC_DIR = includes
 SRCS =  ft_atoi.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c \
 		ft_isprint.c ft_memset.c ft_strchr.c ft_strdup.c ft_strlen.c \
-		ft_tolower.c ft_toupper.c ft_bzero.c
+		ft_tolower.c ft_toupper.c ft_bzero.c ft_calloc.c
 COMP_LIB = ar rcs
 RM = rm -f
 CC = cc

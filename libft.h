@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 10:51:47 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/11 12:14:36 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/11 12:58:32 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 # include <unistd.h>
 # include <stdio.h>
 # include <limits.h>
+# include <stdint.h>
 
 int		ft_atoi(const char *str);
 int		ft_isalnum(int c);
@@ -30,4 +31,6 @@ int		ft_tolower(int c);
 int		ft_toupper(int c);
 void	*ft_memset(void *str, int c, size_t n);
 void	ft_bzero(void *str, size_t n);
+void	*ft_calloc(size_t n, size_t size);
+
 #endif
