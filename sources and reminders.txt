@@ -5,5 +5,5 @@ https://www.w3schools.com/c/
 
 Reminder:
 -ASAP
-	-Study ft_memset and ft_strchr
+	-Study ft_memset ✅ and ft_strchr
 

@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 12:25:20 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/10 20:51:39 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/11 10:51:42 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,9 @@ char	*ft_strdup(char *src)
 	int		j;
 
 	j = ft_strlen(src);
-	str = malloc(sizeof(char) * j);
+	str = malloc(sizeof(char) * j + 1);
+	if (!str)
+		return (NULL);
 	i = 0;
 	while (src[i])
 	{

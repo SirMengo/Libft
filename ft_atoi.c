@@ -6,13 +6,13 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/16 16:13:22 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/10 11:11:46 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/11 11:07:35 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_atoi(char *str)
+int	ft_atoi(const char *str)
 {
 	unsigned int	i;
 	int				val;
@@ -36,3 +36,4 @@ int	ft_atoi(char *str)
 	}
 	return (res * val);
 }
+
