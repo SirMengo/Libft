@@ -2,7 +2,9 @@ DO NOT COPY THESE. PLEASE DO THE EXERCISES BY YOURSELF AND BE SURE TO UNDERSTAND
 
 Exercises from the "Common Core - Libft" of 42School. Planning on doing all of them, they are not all done yet, will update this README when they are complete.
 
-Tested *DOES NOT MEAN* that the exercise is working, just means it passed the [Libft Tester](https://github.com/Tripouille/libftTester)
+Tested *DOES NOT MEAN* that the exercise is working, just means it passed the [Libft Tester](https://github.com/Tripouille/libftTester).
+
+Mains for the projects will be commented when I am done with everything, has a method of study for my evaluations.
 
 | Mandatory (I) | Status     | Tested     |
 | :-------- | :------- | :------- |
