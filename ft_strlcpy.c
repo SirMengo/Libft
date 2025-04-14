@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 11:16:55 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/14 12:57:39 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/14 14:32:34 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t dest_size)
 	else if (dest_size != 0)
 	{
 		ft_memcpy(dest, src, dest_size - 1);
-		dest[dest_size - 1] = 0;
+		dest[dest_size - 1] = '\0';
 	}
 	return (src_size);
 }
