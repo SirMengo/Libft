@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 10:51:47 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/14 12:53:36 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/14 17:38:41 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,7 @@ int		ft_isascii(int c);
 int		ft_isdigit(int c);
 int		ft_isprint(int c);
 char	*ft_strchr(const char *str, int c);
+char	*ft_strrchr(const char *str, int c);
 char	*ft_strdup(char *src);
 size_t	ft_strlen(const char *str);
 int		ft_tolower(int c);
@@ -35,5 +36,8 @@ void	*ft_calloc(size_t n, size_t size);
 void 	*ft_memcpy(void *dest, const void *src, size_t n);
 void	*ft_memmove(void *dest, const void *src, size_t n);
 size_t	ft_strlcpy(char *dest, const char *src, size_t dest_size);
+size_t	ft_strlcat(char *dest, const char *src, size_t destsize);
+int		ft_strncmp(const char *s1, const char *s2, size_t n);
+void 	*memchr(const void *str, int c, size_t n);
 
 #endif
