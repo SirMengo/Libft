@@ -2,6 +2,8 @@ DO NOT COPY THESE. PLEASE DO THE EXERCISES BY YOURSELF AND BE SURE TO UNDERSTAND
 
 Exercises from the "Common Core - Libft" of 42School. Planning on doing all of them, they are not all done yet, will update this README when they are complete.
 
+Tested *DOES NOT MEAN* that the exercise is working, just means it passed the [Libft Tester](https://github.com/Tripouille/libftTester)
+
 | Mandatory (I) | Status     | Tested     |
 | :-------- | :------- | :------- |
 | isalpha | <p align="center">✅</p> | <p align="center">✅</p> |
@@ -13,7 +15,7 @@ Exercises from the "Common Core - Libft" of 42School. Planning on doing all of t
 | memset | <p align="center">✅</p> | <p align="center">✅</p> |
 | bzero | <p align="center">✅</p> | <p align="center">✅</p> |
 | memcpy | <p align="center">✅</p> | <p align="center">✅</p> |
-| memmove | <p align="center">❌</p> | <p align="center">❌</p> |
+| memmove | <p align="center">✅</p> | <p align="center">✅</p> |
 | strlcpy | <p align="center">❌</p> | <p align="center">❌</p> |
 | strlcat | <p align="center">❌</p> | <p align="center">❌</p> |
 | toupper | <p align="center">✅</p> | <p align="center">✅</p> |
