@@ -25,9 +25,9 @@ Mains for the projects will be commented when I am done with everything, has a m
 | strchr | <p align="center">✅</p> | <p align="center">✅</p> |
 | strrchr | <p align="center">✅</p> | <p align="center">✅</p> |
 | strncmp | <p align="center">✅</p> | <p align="center">✅</p> |
-| memchr | <p align="center">❌</p> | <pm align="center">❌</p> |
-| memcmp | <p align="center">❌</p> | <p align="center">❌</p> |
-| strnstr | <p align="center">❌</p> | <p align="center">❌</p> |
+| memchr | <p align="center">✅</p> | <pm align="center">✅</p> |
+| memcmp | <p align="center">✅</p> | <p align="center">✅</p> |
+| strnstr | <p align="center">✅</p> | <p align="center">✅</p> |
 | atoi | <p align="center">✅</p> | <p align="center">✅</p> |
 | calloc | <p align="center">✅</p> | <p align="center">✅</p> |
 | strdup | <p align="center">✅</p> | <p align="center">✅</p> |
