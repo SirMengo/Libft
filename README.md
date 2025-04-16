@@ -35,16 +35,16 @@ Mains for the projects will be commented when I am done with everything, has a m
 | Mandatory (II) | Status     | Tested     |
 | :-------- | :------- | :------- |
 | ft_substr | <p align="center">✅</p> | <p align="center">✅</p> |
-| ft_strjoin | <p align="center">❌</p> | <p align="center">❌</p> |
+| ft_strjoin | <p align="center">✅</p> | <p align="center">✅</p> |
 | ft_strtrim | <p align="center">❌</p> | <p align="center">❌</p> |
 | ft_split | <p align="center">❌</p> | <p align="center">❌</p> |
 | ft_itoa | <p align="center">❌</p> | <p align="center">❌</p> |
 | ft_strmapi | <p align="center">❌</p> | <p align="center">❌</p> |
 | ft_striteri | <p align="center">❌</p> | <p align="center">❌</p> |
-| ft_putchar_fd | <p align="center">❌</p> | <p align="center">❌</p> |
-| ft_putstr_fd | <p align="center">❌</p> | <p align="center">❌</p> |
-| ft_putendl_fd | <p align="center">❌</p> | <p align="center">❌</p> |
-| ft_putnbr_fd | <p align="center">❌</p> | <p align="center">❌</p> |
+| ft_putchar_fd | <p align="center">✅</p> | <p align="center">✅</p> |
+| ft_putstr_fd | <p align="center">✅</p> | <p align="center">✅</p> |
+| ft_putendl_fd | <p align="center">✅</p> | <p align="center">✅</p> |
+| ft_putnbr_fd | <p align="center">✅</p> | <p align="center">✅</p> |
 
 | Bonus | Status     | Tested     |
 | :-------- | :------- | :------- |
