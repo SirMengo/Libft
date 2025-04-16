@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 09:56:47 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/15 14:46:06 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/16 13:01:29 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,7 +39,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 /*
 int main ()
 {
-	char str [14] = "Ear feel think";
+	char str [15] = "HEar feel think";
 	char *a = ft_substr(str, 3, 4);
 	printf("%s", a);
 	free(a);
