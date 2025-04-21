@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/16 15:05:58 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/17 13:21:15 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/21 14:10:15 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,10 @@
 
 void	ft_free(char **arr)
 {
-	size_t 	i;
+	size_t	i;
 
 	i = 0;
-	while(arr[i])
+	while (arr[i])
 		i++;
 	while (i > 0)
 	{
@@ -26,10 +26,10 @@ void	ft_free(char **arr)
 	free(arr);
 }
 
-size_t	count_words(char const *s, char c) 
+size_t	count_words(char const *s, char c)
 {
 	size_t	i;
-	size_t 	words;	
+	size_t	words;	
 
 	words = 0;
 	i = 0;
@@ -49,23 +49,23 @@ char	*create_arr(char const *s, char c, int *x)
 {
 	size_t	i;
 	size_t	len;
-	size_t start;
+	size_t	start;
 	char	*word;
 
 	while (s[*x] && s[*x] == c)
 		(*x)++;
 	start = *x;
 	len = 0;
-	while(s[*x + len] && s[*x + len] != c)
+	while (s[*x + len] && s[*x + len] != c)
 		len++;
 	word = malloc(sizeof(char) * len + 1);
-	if(!word)
+	if (!word)
 		return (NULL);
 	i = 0;
-	while(i < len)
+	while (i < len)
 	{
 		word[i] = s[i + start];
-		i++; 
+		i++;
 	}
 	word[len] = '\0';
 	*x += len;
@@ -74,16 +74,15 @@ char	*create_arr(char const *s, char c, int *x)
 
 void	add_to_arr(char **arr, char const *word, char c, size_t count)
 {
-	size_t i;
-	int x;
-	
+	size_t	i;
+	int		x;
+
 	x = 0;
 	i = 0;
-		
 	while (i < count)
 	{
 		arr[i] = create_arr(word, c, &x);
-		if(!arr[i])
+		if (!arr[i])
 		{
 			ft_free(arr);
 			return ;
@@ -95,29 +94,25 @@ void	add_to_arr(char **arr, char const *word, char c, size_t count)
 
 char	**ft_split(char const *s, char c)
 {
-	char 	**arr;
+	char	**arr;
 	size_t	words;
-	if(!s)
-		return(NULL);
-	words = count_words(s, c);
 
-	arr = malloc(sizeof(char*) * (words + 1));
+	if (!s)
+		return (NULL);
+	words = count_words(s, c);
+	arr = malloc(sizeof(char *) * (words + 1));
 	if (!arr)
 		return (NULL);
 	add_to_arr(arr, s, c, words);
-	
-	return(arr);
+	return (arr);
 }
 /*
 int main()
 {
 	char **str;
 	int i;
-	
 	str = ft_split("          ", ' ');
-
 	i = 0;
-
 	while (str[i])
 	{
 		printf("[%d]:%s\n", i, str[i]);

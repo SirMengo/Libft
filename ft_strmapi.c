@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/21 12:39:19 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/21 13:01:42 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/21 13:07:16 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	i = 0;
 	while (i < ft_strlen(s))
 	{
-		str[i] = (*f)(i, &s[i]);
+		str[i] = (*f)(i, s[i]);
 		i++;
 	}
 	str[i] = '\0';

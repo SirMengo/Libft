@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/16 10:14:56 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/16 10:23:12 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/21 14:20:12 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,6 @@ void	ft_putstr_fd(char *s, int fd)
 	int	i;
 
 	i = 0;
-	while(s[i])
-		ft_putchar_fd(s[i++],fd);
+	while (s[i])
+		ft_putchar_fd(s[i++], fd);
 }

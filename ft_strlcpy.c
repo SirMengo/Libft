@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 11:16:55 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/14 15:29:27 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/21 13:44:17 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 size_t	ft_strlcpy(char *dest, const char *src, size_t dest_size)
 {
 	size_t	src_size;
-	
+
 	src_size = ft_strlen(src);
 	if (src_size + 1 < dest_size)
 		ft_memcpy(dest, src, src_size + 1);

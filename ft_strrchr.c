@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 16:44:08 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/14 17:22:19 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/21 13:51:48 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 char	*ft_strrchr(const char *str, int c)
 {
 	size_t	i;
-	
+
 	i = ft_strlen(str);
 	if (!str)
 		return (NULL);

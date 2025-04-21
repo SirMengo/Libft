@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 14:54:21 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/14 17:04:37 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/21 13:43:58 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ size_t	ft_strlcat(char *dest, const char *src, size_t destsize)
 	size_t	dest_length;
 	size_t	src_length;
 	size_t	i;
-	
+
 	i = 0;
 	dest_length = ft_strlen(dest);
 	src_length = ft_strlen(src);

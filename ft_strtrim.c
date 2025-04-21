@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 15:33:44 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/16 15:03:22 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/21 14:03:55 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 int	is_set(char const *set, char c)
 {
 	size_t	i;
-	
+
 	i = 0;
 	while (set[i])
 	{
@@ -32,10 +32,10 @@ char	*ft_strtrim(char const *s1, char const *set)
 	size_t	first_index;
 	size_t	last_index;
 	char	*trim;
-	
+
 	first_index = 0;
 	if (!s1 && !set)
-		return(NULL);
+		return (NULL);
 	i = ft_strlen(s1);
 	while (is_set(set, s1[first_index]) == 1 && s1)
 		first_index++;
@@ -49,5 +49,5 @@ char	*ft_strtrim(char const *s1, char const *set)
 	while (s1 && first_index < last_index)
 		trim[i++] = s1[first_index++];
 	trim[i] = '\0';
-	return (trim);		
+	return (trim);
 }
