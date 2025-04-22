@@ -5,19 +5,19 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/04/22 11:46:36 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/22 14:19:15 by msimoes          ###   ########.fr       */
+/*   Created: 2025/04/22 15:37:31 by msimoes           #+#    #+#             */
+/*   Updated: 2025/04/22 15:53:30 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
+t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*newlst;
 	t_list	*tmp;
 
-	if (!f || !lst || !del)
+	if(!f || !lst || !del)
 		return (NULL);
 	newlst = NULL;
 	while (lst != NULL)

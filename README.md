@@ -55,5 +55,5 @@ Mains for the projects will be commented when I am done with everything, has a m
 | ft_lstadd_back | <p align="center">✅</p> | <p align="center">✅</p> |
 | ft_lstdelone | <p align="center">✅</p> | <p align="center">✅</p> |
 | ft_lstclear | <p align="center">✅</p> | <p align="center">✅</p> |
-| ft_lstiter | <p align="center">❌</p> | <p align="center">❌</p> |
-| ft_lstmap | <p align="center">❌</p> | <p align="center">❌</p> |
+| ft_lstiter | <p align="center">✅</p> | <p align="center">✅</p> |
+| ft_lstmap | <p align="center">✅</p> | <p align="center">✅</p> |

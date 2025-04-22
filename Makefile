@@ -6,7 +6,7 @@
 #    By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/08 12:46:46 by msimoes           #+#    #+#              #
-#    Updated: 2025/04/22 14:11:43 by msimoes          ###   ########.fr        #
+#    Updated: 2025/04/22 16:42:21 by msimoes          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,8 +20,10 @@ SRCS =  ft_atoi.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_isdigit.c \
 		ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c ft_strtrim.c ft_split.c \
 		ft_itoa.c ft_strmapi.c ft_striteri.c
 
-SRCS_BONUS = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstadd_back.c ft_lstdelone \
-				ft_lstclear.c ft_lstmap.c
+SRCS_BONUS = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstadd_back.c \
+				ft_lstdelone.c ft_lstmap.c ft_lstclear.c ft_lstlast.c ft_lstiter.c
+				
+				
 COMP_LIB = ar rcs
 RM = rm -f
 CC = cc
@@ -31,14 +33,17 @@ OBJS = $(SRCS:.c=.o)
 OBJS_BONUS = $(SRCS_BONUS:.c=.o)
 ADD = $(SRCS)
 ADD_BONUS = $(SRCS_BONUS)
-		
+
 all: $(NAME)
 
 bonus: $(OBJS) $(OBJS_BONUS)
-	$(COMP_LIB) $(NAME) $(OBJ) $(OBJ_BONUS)
-	
+	$(COMP_LIB) $(NAME) $(OBJS) $(OBJS_BONUS)
+	@touch bonus
+
 clean:
 	$(RM) $(OBJS) $(OBJS_BONUS)
+	@touch bonus
+	@rm bonus
 
 fclean: clean
 	$(RM) $(NAME)
@@ -53,4 +58,5 @@ $(OBJS_BONUS):
 
 $(NAME): $(OBJS) 
 	$(COMP_LIB) $(NAME) $(OBJS)
-	
+
+.PHONY: all clean fclean re
