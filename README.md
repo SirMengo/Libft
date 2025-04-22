@@ -48,12 +48,12 @@ Mains for the projects will be commented when I am done with everything, has a m
 
 | Bonus | Status     | Tested     |
 | :-------- | :------- | :------- |
-| ft_lstnew | <p align="center">❌</p> | <p align="center">❌</p> |
-| ft_lstadd_front | <p align="center">❌</p> | <p align="center">❌</p> |
-| ft_lstsize | <p align="center">❌</p> | <p align="center">❌</p> |
-| ft_lstlast | <p align="center">❌</p> | <p align="center">❌</p> |
-| ft_lstadd_back | <p align="center">❌</p> | <p align="center">❌</p> |
-| ft_lstdelone | <p align="center">❌</p> | <p align="center">❌</p> |
-| ft_lstclear | <p align="center">❌</p> | <p align="center">❌</p> |
+| ft_lstnew | <p align="center">✅</p> | <p align="center">✅</p> |
+| ft_lstadd_front | <p align="center">✅</p> | <p align="center">✅</p> |
+| ft_lstsize | <p align="center">✅</p> | <p align="center">✅</p> |
+| ft_lstlast | <p align="center">✅</p> | <p align="center">✅</p> |
+| ft_lstadd_back | <p align="center">✅</p> | <p align="center">✅</p> |
+| ft_lstdelone | <p align="center">✅</p> | <p align="center">✅</p> |
+| ft_lstclear | <p align="center">✅</p> | <p align="center">✅</p> |
 | ft_lstiter | <p align="center">❌</p> | <p align="center">❌</p> |
 | ft_lstmap | <p align="center">❌</p> | <p align="center">❌</p> |
