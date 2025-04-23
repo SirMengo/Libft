@@ -6,7 +6,7 @@
 #    By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/08 12:46:46 by msimoes           #+#    #+#              #
-#    Updated: 2025/04/22 16:42:21 by msimoes          ###   ########.fr        #
+#    Updated: 2025/04/23 18:15:57 by msimoes          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,12 +27,14 @@ SRCS_BONUS = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstadd_back.c \
 COMP_LIB = ar rcs
 RM = rm -f
 CC = cc
-CC_FLAGS = -c -Wall -Wextra -Werror
+CC_FLAGS = -Wall -Wextra -Werror
 
 OBJS = $(SRCS:.c=.o)
 OBJS_BONUS = $(SRCS_BONUS:.c=.o)
-ADD = $(SRCS)
-ADD_BONUS = $(SRCS_BONUS)
+
+
+%.o : %.c
+	$(CC) $(CC_FLAGS) -c $< -o $@
 
 all: $(NAME)
 
@@ -50,11 +52,6 @@ fclean: clean
 
 re: fclean all
 
-$(OBJS):
-	$(CC) $(CC_FLAGS) $(ADD)
-
-$(OBJS_BONUS):
-	$(CC) $(CC_FLAGS) $(ADD_BONUS)
 
 $(NAME): $(OBJS) 
 	$(COMP_LIB) $(NAME) $(OBJS)

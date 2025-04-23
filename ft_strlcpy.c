@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 11:16:55 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/21 13:44:17 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/23 17:12:55 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,17 @@ size_t	ft_strlcpy(char *dest, const char *src, size_t dest_size)
 	}
 	return (src_size);
 }
+/*
+int main()
+{
+	char str1[] = "Hello World";
+	unsigned long num1 = 3;
+	char dest[8] = "Book";
+
+	printf("String: %s \n", str1);
+	printf("Copying %lu spots\n",num1);
+	printf("to destination string: %s \n",dest);
+	ft_strlcpy(dest, str1, num1);
+	printf("Output: %s", dest);
+}
+*/

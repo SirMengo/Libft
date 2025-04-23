@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/14 17:58:32 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/21 13:52:18 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/23 17:17:43 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,21 @@ char	*ft_strnstr(const char *b, const char *l, size_t len)
 	}
 	return (0);
 }
+
+/*
+int main()
+{
+	char str1[] = "Hello World!";
+	char str2[] = "World";
+	int i = 11;
+	int j = 5;
+	
+	printf("Finding '%s' in '%s' within the first %d characters\n", 
+			str2, str1, i);
+	printf("Output: '%s'\n", ft_strnstr(str1, str2, i));
+
+	printf("Finding '%s' in '%s' within the first %d characters\n",
+			 str2, str1, j);
+	printf("Output: '%s'\n", ft_strnstr(str1, str2, j));
+}
+*/

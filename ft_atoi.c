@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/16 16:13:22 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/15 11:17:48 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/23 16:49:55 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,3 +36,19 @@ int	ft_atoi(const char *str)
 	}
 	return (res * val);
 }
+
+/*
+int main()
+{
+	char str1[] = "-2147483648";
+	char str2[] = "314";
+	char str3[] = "0";
+	
+	printf("Converting the string '%s' \n", str1);
+	printf("to the integer '%d'\n", ft_atoi(str1));
+	printf("Converting the string '%s' \n", str2);
+	printf("to the integer '%d'\n", ft_atoi(str2));
+	printf("Converting the string '%s' \n", str3);
+	printf("to the integer '%d'\n", ft_atoi(str3));
+}
+*/

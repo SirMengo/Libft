@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 15:33:44 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/21 14:03:55 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/23 14:09:37 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -51,3 +51,16 @@ char	*ft_strtrim(char const *s1, char const *set)
 	trim[i] = '\0';
 	return (trim);
 }
+
+/*
+int main()
+{
+	char str1[] = "baaaabaabbHello Worldbbbbaaabbbba";
+	char set[] = "ba";
+
+	printf("Remove the characters :'%s'\n", set);
+	printf("from the string '%s'\n", str1);
+	char *out = ft_strtrim(str1, set);
+	printf("Output: %s\n", out);
+}
+*/

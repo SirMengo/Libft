@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 15:05:42 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/21 14:17:17 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/23 14:02:38 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,11 @@ char	*ft_strjoin(char const *s1, char const *s2)
 /*
 int main()
 {
-	char a[4] = "abc";
-	char b[4] = "def";
-	printf("%s",ft_strjoin(a,b));
-}*/
+	char str1[] = "Hello";
+	char str2[] = "World";
+	printf("Joining '%s'\n", str1);
+	printf("and '%s'\n", str2);
+	char *dest = ft_strjoin(str1, str2);
+	printf("Output: '%s'\n", dest);
+}
+*/

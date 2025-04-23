@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 12:25:20 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/16 12:26:19 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/23 13:46:51 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,13 @@ char	*ft_strdup(const char *src)
 	str[i] = '\0';
 	return (str);
 }
+
+/*
+int main()
+{
+	char str1[] = "Hello World!";
+	printf("Copying the string '%s'\n", str1);
+	char *copy = ft_strdup(str1);
+	printf("Output: '%s'\n", copy);
+}
+*/

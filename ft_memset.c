@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/10 13:12:32 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/11 14:39:04 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/23 17:06:43 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,18 @@ void	*ft_memset(void *str, int c, size_t n)
 	}
 	return (str);
 }
+
+/*
+int main()
+{
+	char str1[] = "Hello World";
+	char carac1 = 'A';
+	unsigned long num1 = 6;
+
+	printf("String: %s \n", str1);
+	printf("Filling %lu spots\n", num1);
+	printf("with character '%c' \n",carac1);
+	ft_memset(str1, carac1, num1);
+	printf("Output: %s", str1);
+}
+*/

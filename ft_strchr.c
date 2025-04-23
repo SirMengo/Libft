@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/13 00:27:58 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/14 17:17:55 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/23 12:22:08 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,18 @@ char	*ft_strchr(const char *str, int c)
 		return (NULL);
 	return (0);
 }
+
+/*
+int main()
+{
+	char str1[] = "Hello World";
+	char character1 = 'o';
+	char character2 = 'c';
+
+	printf("Search for character '%c' in string '%s'\n", character1, str1);
+	printf("Output: '%s'\n", ft_strchr(str1, character1));
+
+	printf("Search for character '%c' in string '%s'\n", character2, str1);
+	printf("Output: '%s'\n", ft_strchr(str1, character2));
+}
+*/

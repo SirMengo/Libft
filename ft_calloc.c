@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/11 12:19:12 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/11 14:41:19 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/23 13:41:39 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,3 +28,14 @@ void	*ft_calloc(size_t n, size_t size)
 	ft_bzero(ptr, mult);
 	return (ptr);
 }
+
+/*
+int main()
+{
+	char *str1 = ft_calloc(6, sizeof(char));
+	char *str2 = ft_calloc(1000, sizeof(char));
+	
+	printf("String 1: %p\n", str1);
+	printf("String 2: %p\n", str2);
+}
+*/

@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/16 15:05:58 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/21 14:10:15 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/23 14:16:40 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -106,16 +106,22 @@ char	**ft_split(char const *s, char c)
 	add_to_arr(arr, s, c, words);
 	return (arr);
 }
+
 /*
 int main()
 {
-	char **str;
+	char **strs;
+	char str1[] = "Hear Feel Think";
+	char sep = ' ';
 	int i;
-	str = ft_split("          ", ' ');
+	strs = ft_split(str1, ' ');
 	i = 0;
-	while (str[i])
+	printf("Separating the string '%s'\n", str1);
+	printf("with the seperator '%c'\n", sep);
+	while (strs[i])
 	{
-		printf("[%d]:%s\n", i, str[i]);
+		printf("[%d]:%s\n", i, strs[i]);
 		i++;
 	}	
-}*/
+}
+*/

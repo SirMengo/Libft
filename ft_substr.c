@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 09:56:47 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/21 13:55:32 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/23 13:55:58 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,13 +35,18 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	sub[i] = '\0';
 	return ((char *)sub);
 }
+
 /*
 int main ()
 {
-	char str [15] = "HEar feel think";
-	char *a = ft_substr(str, 3, 4);
-	printf("%s", a);
-	free(a);
-	
+	char str [15] = "Hear feel think";
+	int start = 3;
+	int len = 9;
+	printf("Finding substring starting in position %d\n", start);
+	printf("and with the length of %d \n", len);
+	printf("in the string '%s'\n", str);
+	char *cpy = ft_substr(str, start, len);
+	printf("Output: '%s'",cpy);
+	free(cpy);
 }
 */

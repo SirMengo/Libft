@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/11 16:06:54 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/14 11:58:50 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/23 17:04:56 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,17 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 			temp_dest[i - 1] = temp_src[i - 1];
 	return (dest);
 }
+/*
+int main()
+{
+	char str1[] = "Hello World";
+	unsigned long num1 = 3;
+	char dest[8] = "Book";
+
+	printf("String: %s \n", str1);
+	printf("Copying %lu spots\n",num1);
+	printf("to destination string: %s\n",dest);
+	ft_memmove(dest, str1, num1);
+	printf("Output: %s", dest);
+}
+*/
