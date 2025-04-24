@@ -6,7 +6,7 @@
 /*   By: msimoes <msimoes@student.42lisboa.com>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/04/15 09:56:47 by msimoes           #+#    #+#             */
-/*   Updated: 2025/04/23 13:55:58 by msimoes          ###   ########.fr       */
+/*   Updated: 2025/04/24 11:55:50 by msimoes          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,6 +18,8 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	size_t	str_len;
 	char	*sub;
 
+	if (!s)
+		return (NULL);
 	str_len = ft_strlen((char *)s);
 	if (start >= str_len)
 		return (ft_strdup(""));
