@@ -1,7 +1,7 @@
 *This project has been created as part of the 42 curriculum by msimoes*
 
 ## Description
-The Libft project is the first project of the 42 curriculum. It is an introduction to the basics of the programming language. This project's objective is to create our own C library by recreating existing C functions.
+The Libft project is the first project of the 42 curriculum. It is an introduction to the basics of the C programming language. This project's objective is to create our own C library by recreating existing C functions.
 
 The goal of this project is to create a library of functions that will be used throughout the entire curriculum.
 
